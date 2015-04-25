@@ -1,0 +1,1013 @@
+body {
+  background-color: rgb(0, 65, 134);
+  font: 400 1em/1.38 Rokkitt;
+  color: rgb(45, 45, 45);
+}
+
+.care-box p,
+.special-box p,
+.sum p {
+  margin-bottom: 1em;
+}
+
+.buffer-4 {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 75px;
+}
+
+.buffer-7 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 5;
+  width: 100%;
+  height: 15px;
+  background-color: rgb(255, 225, 43);
+}
+
+.buffer-8 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 2;
+  width: 100%;
+  height: 15px;
+  margin-top: 200px;
+  background-color: rgb(255, 225, 43);
+}
+
+.car {
+  float: left;
+  width: 100%;
+  height: 300px;
+}
+
+.car .car {
+  background: url('../images/yellow%20corner.svg'), url('../images/corner%20blue%203.svg') rgb(255, 255, 255);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 125px 84px, 125px 84px;
+  background-position: left top, right bottom;
+  background-attachment: scroll, scroll;
+}
+
+.car-box,
+.care-box {
+  width: 73.6111111111%;
+  height: 176px;
+  margin: 57px auto 0;
+}
+
+.car-box .car-describe {
+  margin-top: 35px;
+  color: rgb(45, 45, 45);
+}
+
+.car-describe {
+  float: left;
+  width: 78.6415094339%;
+  min-height: 121px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.car-icon {
+  display: block;
+  float: left;
+  width: 125px;
+  height: auto;
+  margin: 40px 0 0 2.47642%;
+  overflow: hidden;
+}
+
+.care {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background: url('../images/corner%20red%202.svg'), url('../images/corner%20blue%202.svg') rgb(243, 214, 41);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 125px 84px, 125px 84px;
+  background-position: right top, left bottom;
+  background-attachment: scroll, scroll;
+}
+
+.care-describe {
+  float: left;
+  width: 72.4528301886%;
+  min-height: 121px;
+  margin: -10px 0 0 1.88208%;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(45, 45, 45);
+}
+
+.care-icon {
+  display: block;
+  float: left;
+  width: 170px;
+  height: auto;
+  margin-top: 18px;
+  overflow: hidden;
+}
+
+.companion-care {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 21;
+  width: 100%;
+  height: 300px;
+  margin-top: 65px;
+}
+
+.contact-info {
+  float: left;
+  width: 57.8054298642%;
+  min-height: 50px;
+  margin: 24px 0 0 2.36806%;
+  font-size: 1.25em;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.experience .experience {
+  float: left;
+  width: 96%;
+  min-height: 73px;
+  margin: 31px 0 0 1.98469%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(45, 45, 45);
+}
+
+.heart {
+  display: block;
+  float: left;
+  width: 74px;
+  height: auto;
+  margin-left: 0.99653%;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 254px;
+  height: auto;
+  margin: 11px 0 0 0.80556%;
+  overflow: hidden;
+}
+
+.image-graphic {
+  display: block;
+  float: left;
+  width: 314px;
+  height: auto;
+  margin: 15px 0 0 32.21181%;
+  overflow: hidden;
+}
+
+.impression {
+  position: relative;
+  float: left;
+  z-index: 30;
+  width: 100%;
+  height: 400px;
+  margin-top: 75px;
+  background: url('../images/Optimized-stock1.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.mission {
+  float: left;
+  width: 100%;
+  height: 200px;
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.motto {
+  display: block;
+  width: 621px;
+  height: auto;
+  margin: 325px auto 0;
+  overflow: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 34;
+  width: 100%;
+  height: 75px;
+  background-color: rgba(30, 30, 30, 0.8);
+}
+
+.plug {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 100%;
+  height: 33px;
+}
+
+.service-icons {
+  display: block;
+  width: 532px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.service-sum {
+  width: 72.6244343891%;
+  min-height: 51px;
+  margin: 23px auto 0;
+  background-color: rgba(45, 45, 45, 0);
+  font-size: 1.25em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.sig {
+  width: 15.3333333333%;
+  min-height: 18px;
+  margin: 9px auto 0;
+  font: 300 0.688em/1.38 'Roboto Condensed';
+  text-align: right;
+  color: rgb(45, 45, 45);
+}
+
+.special {
+  float: left;
+  width: 100%;
+  height: 300px;
+}
+
+.special .special {
+  background: url('../images/corner%20white%201.svg'), url('../images/corner%20red%203.svg') rgb(41, 156, 243);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 125px 84px, 125px 84px;
+  background-position: right top, left bottom;
+  background-attachment: scroll, scroll;
+}
+
+.special-box {
+  width: 73.6111111111%;
+  height: 176px;
+  margin: 3px auto 0;
+}
+
+.special-box .car-describe {
+  margin: 13px 0 0 3.84906%;
+  color: rgb(255, 255, 255);
+}
+
+.statement {
+  width: 80%;
+  min-height: 74px;
+  margin: 46px auto 0;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(45, 45, 45);
+}
+
+.sum {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 26;
+  width: 100%;
+  height: 300px;
+  background: url('../images/corner%20blue.svg'), url('../images/red%20corner.svg') rgb(255, 255, 255);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 125px 84px, 125px 84px;
+  background-position: right top, left bottom;
+  background-attachment: scroll, scroll;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.transparency {
+  float: left;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(45, 45, 45, 0.45);
+}
+
+.wheelchair {
+  display: block;
+  float: left;
+  width: 116px;
+  height: auto;
+  margin-top: 26px;
+  overflow: hidden;
+}
+
+.car-1 {
+  position: relative;
+  clear: both;
+  z-index: 16;
+  margin-top: 15px;
+}
+
+.experience-1 {
+  position: relative;
+  z-index: 23;
+  width: 87.2222222222%;
+  height: 133px;
+  margin: 850px auto 0;
+  border: 15px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.special-1 {
+  position: relative;
+  clear: both;
+  z-index: 10;
+}
+
+.car-describe span,
+.care-describe a,
+.care-describe em,
+.care-describe span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  word-spacing: 0;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.service-sum span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 0.8em;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  word-spacing: 0;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.service-sum strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  word-spacing: 0;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.sig a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  word-spacing: 0;
+  color: rgb(32, 140, 255);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.sig a:hover {
+  color: rgb(0, 90, 185);
+}
+
+.sig a:active {
+  color: rgb(83, 166, 255);
+}
+
+.sig span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: 0;
+  word-spacing: 0;
+  color: rgb(0, 114, 236);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+@media(max-width: 860px) {
+  .buffer-7 {
+    position: relative;
+    z-index: 5;
+    margin-top: 125px;
+  }
+
+  .buffer-8 {
+    position: relative;
+    z-index: 2;
+    margin-top: 125px;
+  }
+
+  .car-box .car-describe {
+    margin-top: 0;
+    margin-left: 0.03456%;
+  }
+
+  .car-box .car-icon {
+    height: auto;
+    margin-top: 39px;
+    margin-left: 1.57473%;
+  }
+
+  .care-box .care-describe {
+    margin-top: 7px;
+    margin-left: 0;
+  }
+
+  .companion-care {
+    position: relative;
+    z-index: 21;
+    margin-top: 125px;
+  }
+
+  .experience {
+    position: relative;
+    float: left;
+    margin-top: 91px;
+    margin-left: 6.73147%;
+  }
+
+  .experience .experience {
+    position: absolute;
+    float: none;
+    top: 21px;
+    left: 1.9983943411%;
+    width: 95.9988716991%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .impression {
+    position: relative;
+    z-index: 30;
+  }
+
+  .mission .statement {
+    margin-top: 65px;
+  }
+
+  .navbar .contact-info {
+    margin-left: 1.2064%;
+  }
+
+  .navbar .heart {
+    height: auto;
+    margin-left: 0.99564%;
+  }
+
+  .navbar .image {
+    position: relative;
+    z-index: 32;
+    height: auto;
+    margin-left: 0.80487%;
+  }
+
+  .plug {
+    position: relative;
+    z-index: 1;
+    width: 9.2205668604%;
+    margin-top: 125px;
+  }
+
+  .plug .sig {
+    float: left;
+    width: 166.2857142857%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .special .special-box {
+    margin-top: 57px;
+  }
+
+  .special-box .car-describe {
+    clear: both;
+    width: 82.616314945%;
+    margin-top: -156px;
+    margin-left: 21.25139%;
+  }
+
+  .care-box .care-icon,
+  .special-box .wheelchair,
+  .transparency .motto {
+    height: auto;
+  }
+
+  .sum {
+    position: relative;
+    z-index: 26;
+    margin-top: -475px;
+  }
+
+  .sum .service-icons {
+    height: auto;
+    margin-top: 22px;
+  }
+
+  .transparency .image-graphic {
+    height: auto;
+    margin-left: 32.21112%;
+  }
+
+  .car-1 {
+    position: relative;
+    z-index: 16;
+    margin-top: 0;
+  }
+
+  .experience-1 {
+    z-index: 23;
+    margin-right: 0;
+  }
+
+  .special-1 {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+@media(max-width: 820px) {
+  body {
+    font-size: 1em;
+  }
+
+  .buffer-7 {
+    position: relative;
+    z-index: 5;
+    margin-top: 100px;
+  }
+
+  .buffer-8 {
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+  }
+
+  .car-box .car-describe {
+    margin-left: 0.02589%;
+  }
+
+  .car-box .car-icon {
+    height: auto;
+    margin-top: 34px;
+    margin-left: 0;
+  }
+
+  .care .care-box {
+    width: 73.6585365853%;
+    height: 195px;
+  }
+
+  .care-box .care-describe {
+    clear: both;
+    margin-top: -154px;
+    margin-left: 28.16122%;
+  }
+
+  .companion-care {
+    position: relative;
+    z-index: 21;
+    margin-top: 3655px;
+  }
+
+  .experience {
+    margin-left: 6.3872%;
+  }
+
+  .experience .experience {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .impression {
+    position: relative;
+    z-index: 30;
+  }
+
+  .navbar .contact-info {
+    position: relative;
+    clear: both;
+    z-index: 31;
+    margin-top: -63px;
+    margin-left: 39.15206%;
+  }
+
+  .navbar .heart {
+    height: auto;
+    margin-left: 0.99276%;
+  }
+
+  .navbar .image {
+    position: relative;
+    z-index: 32;
+    height: auto;
+    margin-left: 0.8041199999%;
+  }
+
+  .plug {
+    position: relative;
+    z-index: 1;
+    width: 9.2206554878%;
+    margin-top: 0;
+  }
+
+  .plug .sig {
+    width: 166.2740235585%;
+  }
+
+  .special-box .car-describe {
+    clear: none;
+    margin-top: 0;
+    margin-left: 2.089%;
+  }
+
+  .care-box .care-icon,
+  .special-box .wheelchair,
+  .transparency .motto {
+    height: auto;
+  }
+
+  .sum {
+    position: relative;
+    z-index: 26;
+  }
+
+  .sum .service-icons {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 24;
+    height: auto;
+    margin-top: -5px;
+    margin-right: 0;
+    margin-left: 17.56098%;
+  }
+
+  .sum .service-sum {
+    position: relative;
+    float: left;
+    z-index: 25;
+    margin-right: 0;
+    margin-left: 13.68712%;
+  }
+
+  .transparency .image-graphic {
+    height: auto;
+    margin-left: 32.21037%;
+  }
+
+  .car-1 {
+    position: relative;
+    z-index: 16;
+  }
+
+  .experience-1 {
+    position: relative;
+    z-index: 23;
+    margin-top: -100px;
+  }
+
+  .special-1 {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+@media(max-width: 400px) {
+  .buffer-7 {
+    position: relative;
+    z-index: 5;
+    margin-top: 274px;
+  }
+
+  .buffer-7 .mission {
+    height: 291px;
+    margin-top: -291px;
+  }
+
+  .buffer-8 {
+    position: relative;
+    z-index: 2;
+    margin-top: 291px;
+    margin-left: -0.25%;
+  }
+
+  .car {
+    position: relative;
+    z-index: 16;
+    margin-top: 582px;
+  }
+
+  .car .buffer-4 {
+    position: relative;
+    z-index: 11;
+    width: 65.33203125%;
+    margin-top: -197px;
+  }
+
+  .car .car {
+    position: relative;
+    z-index: 15;
+    height: 497px;
+    margin-top: 75px;
+  }
+
+  .car .car-box {
+    width: 73.5%;
+    height: 436px;
+  }
+
+  .car-box .car-describe {
+    float: none;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .car-box .car-icon {
+    float: none;
+    height: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .care .care-box {
+    width: 73.609375%;
+    margin-top: 4px;
+  }
+
+  .care-box .care-describe {
+    float: none;
+    clear: none;
+    width: 99.8514115898%;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .care-box .care-icon {
+    float: none;
+    height: auto;
+    margin-top: 17px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .companion-care {
+    position: relative;
+    clear: none;
+    z-index: 21;
+    height: 81px;
+    margin-top: 271px;
+  }
+
+  .companion-care .care {
+    height: 450px;
+    margin-top: 156px;
+  }
+
+  .experience {
+    width: 100%;
+  }
+
+  .experience .experience {
+    right: auto;
+    width: 97.0350404312%;
+  }
+
+  .impression {
+    position: relative;
+    float: none;
+    z-index: 30;
+    margin-top: 95px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .navbar {
+    height: 94px;
+  }
+
+  .navbar .contact-info {
+    position: relative;
+    z-index: 31;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 0.875em;
+    text-align: center;
+  }
+
+  .navbar .heart {
+    position: relative;
+    z-index: 33;
+    height: auto;
+    margin-left: 0.99219%;
+  }
+
+  .navbar .image {
+    position: relative;
+    z-index: 32;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 2.23438%;
+  }
+
+  .plug {
+    position: relative;
+    z-index: 1;
+    width: 9.21875%;
+  }
+
+  .plug .sig {
+    width: 166.313559322%;
+  }
+
+  .special {
+    margin-top: 216px;
+  }
+
+  .special .special {
+    height: 560px;
+    margin-top: 75px;
+  }
+
+  .special .special-box {
+    width: 73.5%;
+    height: 461px;
+  }
+
+  .special-box .car-describe {
+    float: none;
+    width: 99.8514115898%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .special-box .wheelchair {
+    float: none;
+    height: auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sum {
+    position: relative;
+    z-index: 26;
+    height: 551px;
+    margin-top: 0;
+  }
+
+  .sum .service-icons {
+    position: relative;
+    z-index: 24;
+    width: 384px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 2%;
+  }
+
+  .sum .service-sum {
+    position: relative;
+    z-index: 25;
+    margin-left: 13.6875%;
+  }
+
+  .transparency .image-graphic {
+    float: none;
+    height: auto;
+    margin-top: 19px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .transparency .motto {
+    width: 400px;
+    height: auto;
+    margin-top: 28px;
+  }
+
+  .car-1 {
+    margin-left: -0.25%;
+  }
+
+  .experience-1 {
+    position: relative;
+    clear: both;
+    z-index: 23;
+    margin-top: -196px;
+    margin-left: 0;
+  }
+
+  .special-1 {
+    position: relative;
+    z-index: 10;
+    margin-left: -0.25%;
+  }
+}
