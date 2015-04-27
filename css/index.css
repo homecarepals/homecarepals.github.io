@@ -443,6 +443,11 @@ body {
     margin-left: 1.57473%;
   }
 
+  .care .care-box {
+    width: 73.609375%;
+    height: 283px;
+  }
+
   .care-box .care-describe {
     margin-top: 7px;
     margin-left: 0;
@@ -464,9 +469,12 @@ body {
 
   .navbar .contact-info {
     margin-left: 1.2064%;
+    text-align: center;
   }
 
   .navbar .heart {
+    position: relative;
+    z-index: 30;
     height: auto;
     margin-left: 0.99564%;
   }
@@ -494,6 +502,8 @@ body {
   }
 
   .special .special-box {
+    width: 73.5%;
+    height: 461px;
     margin-top: 57px;
   }
 
@@ -504,8 +514,7 @@ body {
 
   .care-box .care-icon,
   .special-box .wheelchair,
-  .transparency .image-graphic,
-  .transparency .motto {
+  .transparency .image-graphic {
     height: auto;
   }
 
@@ -516,8 +525,14 @@ body {
   }
 
   .sum .service-icons {
+    width: 384px;
     height: auto;
     margin-top: 22px;
+  }
+
+  .transparency .motto {
+    width: 400px;
+    height: auto;
   }
 
   .car-1 {
@@ -570,7 +585,6 @@ body {
 
   .care .care-box {
     width: 73.6585365853%;
-    height: 283px;
     margin-top: 55px;
   }
 
@@ -609,6 +623,8 @@ body {
   }
 
   .navbar .heart {
+    position: relative;
+    z-index: 30;
     height: auto;
     margin-left: 0.98877%;
   }
@@ -617,7 +633,7 @@ body {
     position: relative;
     z-index: 29;
     height: auto;
-    margin-left: 0.80078%;
+    margin-left: 0.79834%;
   }
 
   .plug {
@@ -681,7 +697,7 @@ body {
   .sum .service-sum {
     float: left;
     margin-right: 0;
-    margin-left: 13.68164%;
+    margin-left: 13.6792%;
   }
 
   .car-1 {
@@ -783,7 +799,6 @@ body {
     margin-top: 0;
     margin-left: 0;
     font-size: 0.7em;
-    text-align: center;
   }
 
   .navbar .heart {
@@ -823,7 +838,6 @@ body {
 
   .special .special-box {
     width: 73.5%;
-    height: 461px;
     margin-top: 57px;
   }
 
@@ -844,7 +858,6 @@ body {
   }
 
   .sum .service-icons {
-    width: 384px;
     height: auto;
     margin-top: 822px;
   }
@@ -859,9 +872,111 @@ body {
   }
 
   .transparency .motto {
-    width: 400px;
     height: auto;
     margin-top: 28px;
+  }
+
+  .car-1 {
+    position: relative;
+    z-index: 15;
+  }
+
+  .special-1 {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+@media(max-width: 320px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .buffer-7 {
+    position: relative;
+    z-index: 5;
+  }
+
+  .buffer-8 {
+    position: relative;
+    z-index: 2;
+  }
+
+  .care .care-box {
+    width: 88.4375%;
+    height: 313px;
+  }
+
+  .companion-care {
+    position: relative;
+    z-index: 20;
+  }
+
+  .impression {
+    position: relative;
+    z-index: 27;
+  }
+
+  .mission .statement {
+    width: 90%;
+  }
+
+  .navbar .contact-info {
+    position: relative;
+    z-index: 28;
+  }
+
+  .navbar .heart {
+    position: relative;
+    z-index: 30;
+    height: auto;
+    margin-left: 0.98633%;
+  }
+
+  .navbar .image {
+    position: relative;
+    z-index: 29;
+    width: 209px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 2.44629%;
+  }
+
+  .plug {
+    position: relative;
+    z-index: 1;
+  }
+
+  .special .special-box {
+    width: 84.0625%;
+    height: 477px;
+  }
+
+  .car-box .car-icon,
+  .care-box .care-icon,
+  .special-box .wheelchair,
+  .transparency .image-graphic {
+    height: auto;
+  }
+
+  .sum {
+    position: relative;
+    z-index: 23;
+  }
+
+  .sum .service-icons {
+    width: 292px;
+    height: auto;
+    margin-top: 837px;
+  }
+
+  .sum .service-sum {
+    margin-left: 13.68652%;
+  }
+
+  .transparency .motto {
+    width: 320px;
+    height: auto;
   }
 
   .car-1 {
